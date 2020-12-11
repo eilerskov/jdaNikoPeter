@@ -1,1 +1,1 @@
-# Jørgensen Dæk & Autotekning
+# Jørgensen Dæk & Autoteknik
