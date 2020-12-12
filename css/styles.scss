@@ -38,8 +38,33 @@ img {
 body {
   margin: 0; /* Ingen kanter i siden af browser */
 
-    nav{
-      height: 75px !important;
+  nav{
+    .logo{
+      a{
+        img{
+          min-height: 37px;
+          min-width: 160px;
+        }
+      }
+
     }
+.rightNav{
+
+  .phoneIcon{
+    a{
+      img{
+        max-width: 27px;
+      }
+    }
+  }
+
+  .navbar-toggler{
+    border: none;
+
+  }
+
+  }
 
 }
+
+  }
