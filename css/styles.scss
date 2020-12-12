@@ -35,9 +35,12 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
+
+
 body {
     margin: 0; /* Ingen kanter i siden af browser */
     nav{
+      min-height: 75px;
       .logo{
         a{
           img{
@@ -67,5 +70,81 @@ body {
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
+      .headerText{
+        h1{
+          font-family: acumin-pro, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 25px;
+        }
+      }
+      .headerBtns{
+        button{
+          min-width: 133px;
+          min-height: 45px;
+          color: $jdaWhite;
+          font-family: acumin-pro, sans-serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+      }
+      .fbContainer{
+        position: absolute;
+        bottom: 30px;
+        left: 25px;
+        a{
+          font-family: acumin-pro, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 15px;
+        }
+        img{
+          max-width: 19px;
+          max-height: 19px;
+          cursor: pointer;
+        }
+
+      }
+
     }
+
+  .fbLine{
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    bottom: 15px;
+    left:70px;
+  }
+
+  .rightLine{
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    bottom: 15px;
+    right:25px;
+  }
+
+  .standingLine{
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    bottom: 50px;
+    right: -10px;
+    transform: rotate(90deg);
+  }
+
+  #triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #ffffff;
+    border-left: 15px solid transparent;
+    position: absolute;
+    bottom: 20px;
+    right: 29px;
+  }
+
+
+
   }
