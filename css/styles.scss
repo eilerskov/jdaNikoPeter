@@ -35,36 +35,185 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
-body {
-  margin: 0; /* Ingen kanter i siden af browser */
 
-  nav{
-    .logo{
+
+body {
+    margin: 0; /* Ingen kanter i siden af browser */
+    nav{
+      min-height: 75px;
+      .logo{
+        a{
+          img{
+            min-height: 37px;
+            min-width: 160px;
+          }
+        }
+      }
+  .rightNav{
+    .phoneIcon{
       a{
         img{
-          min-height: 37px;
-          min-width: 160px;
+          max-width: 27px;
+        }
+      }
+    }
+    .navbar-toggler{
+      border: none;
+    }
+    }
+  }
+    .frontpageHeader{
+      width: 100%;
+      height: 100vh;
+      background-image: url(../images/frontpageHeader.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      .headerText{
+        h1{
+          font-family: acumin-pro, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 25px;
+        }
+      }
+      .headerBtns{
+        button{
+          min-width: 133px;
+          min-height: 45px;
+          color: $jdaWhite;
+          font-family: acumin-pro, sans-serif;
+          font-weight: 600;
+          font-style: normal;
+        }
+      }
+      .fbContainer{
+        position: absolute;
+        bottom: 30px;
+        left: 25px;
+        a{
+          font-family: acumin-pro, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+          font-size: 15px;
+        }
+        img{
+          max-width: 19px;
+          max-height: 19px;
+          cursor: pointer;
+        }
+
+      }
+
+    }
+
+  .fbLine{
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    bottom: 20px;
+    left:70px;
+  }
+
+  .rightLine{
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    bottom: 20px;
+    right:25px;
+  }
+
+  .standingLine{
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    bottom: 55px;
+    right: -10px;
+    transform: rotate(90deg);
+  }
+
+  #triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #ffffff;
+    border-left: 15px solid transparent;
+    position: absolute;
+    bottom: 25px;
+    right: 29px;
+  }
+
+  .container{
+    .ctaBoxes{
+      .pic1{
+        img{
+        }
+        .mekaniker{
+          left: 0;
+          right: 0;
+          bottom: 85px;
+          h1{
+            color: $jdaWhite;
+            font-size: 20px;
+            }
+          .ctaLine{
+            height: 2px;
+            width: 55px;
+            right: 0;
+            left: 0;
+            top: 50px;
+          }
+        }
+      }
+    }
+
+    .topRightShape{
+      position: absolute;
+    }
+
+    .container{
+
+    .weFixCars{
+      h1{
+        font-size: 30px;
+        font-family: acumin-pro, sans-serif;
+        span{
+          color: $jdaBlue;
+          font-weight: bold;
+        }
+      }
+    }
+
+      .weFixCarsText{
+        p{
+          font-size: 16px;
+          color: #999999;
+        }
+        .ctaBtn{
+          button{
+            color: $jdaWhite;
+            font-weight: bold;
+            font-size: 14px;
+          }
         }
       }
 
-    }
-.rightNav{
-
-  .phoneIcon{
-    a{
-      img{
-        max-width: 27px;
+      .blueCar{
+        z-index: -999;
       }
     }
   }
-
-  .navbar-toggler{
-    border: none;
-
   }
 
+.hej{
+  margin-top: 350px;
+  padding-left: 25px!important;
+  padding-right: 25px!important;
+  .customCard{
+    .cardIcon{
+      max-width: 49px;
+    }
   }
-
 }
-
-  }
