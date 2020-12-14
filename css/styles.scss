@@ -215,5 +215,127 @@ body {
     .cardIcon{
       max-width: 49px;
     }
+    .cardHeader{
+      h5{
+        font-weight: bold;
+        font-family: acumin-pro,sans-serif;
+        font-size: 22px;
+      }
+    }
+
+    .blueLine{
+      height: 2px;
+      width: 48px;
+      background-color: $jdaBlue;
+
+    }
+    .cardText{
+      p{
+        font-family: acumin-pro,sans-serif;
+        color: #999999;
+        font-size: 14px;
+      }
+    }
+    .cardBtn{
+      button{
+        font-size: 10px;
+        font-weight: bold;
+        font-family: acumin-pro,sans-serif;
+      }
+    }
+
+  }
+
+  .diamonds{
+    max-width: 250px;
+    right: 20px;
+    z-index: -999;
+    margin-top: 10px;
+
+  }
+
+}
+
+.buttomLeftShape{
+  img{
+    max-width: 80px;
+  }
+}
+
+.uforpligtendeTilbud{
+  min-height: 812px;
+  width: 100%;
+  background-image: url(../images/carAddMobile.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .tilbud{
+    h3{
+      color: $jdaWhite;
+      font-family: acumin-pro,sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      padding-top: 200px;
+      span{
+        color: $jdaYellow;
+        font-size: 54px;
+      }
+    }
+  }
+}
+
+.tireTech{
+  .tireHeader{
+      h1{
+        font-size: 30px;
+        font-family: acumin-pro, sans-serif;
+        span{
+          color: $jdaBlue;
+          font-weight: bold;
+        }
+      }
+    }
+  .tireText{
+    color: #999999;
+    .ctaBtn{
+      button{
+        color: $jdaWhite;
+        font-family: acumin-pro,sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+  .bottomRightShape{
+    margin-top: 230px;
+  }
+  }
+
+.leasing{
+  min-height: 650px;
+  background-image: url(../images/leasing.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  .leasingText{
+    h3{
+      color: $jdaWhite;
+      font-family: acumin-pro,sans-serif;
+      font-size: 30px;
+      margin-top: 250px;
+      span{
+        font-size: 46px;
+        font-weight: bold;
+      }
+    }
+    .ctaBtn{
+      button{
+        color: $jdaWhite;
+        font-family: acumin-pro,sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
   }
 }

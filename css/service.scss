@@ -1,0 +1,40 @@
+@import "colors";
+
+.serviceHeader{
+  min-height: 384px;
+  background-image: url(../images/services/toolsHeader.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .serviceText{
+    h1{
+      font-family: acumin-pro,sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      color: $jdaWhite;
+    }
+
+  }
+  .underline{
+    height: 3px;
+    width: 45px;
+    background-color: $jdaWhite;
+
+  }
+}
+
+.hej{
+  margin-top: 50px!important;
+}
+
+.hoerMere{
+  h3{
+    font-family: acumin-pro,sans-serif;
+    font-size: 20px;
+    span{
+      font-size: 55px;
+      color: $jdaYellow;
+      font-weight: bold;
+    }
+  }
+}

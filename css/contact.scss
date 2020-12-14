@@ -1,0 +1,91 @@
+@import "colors";
+
+.contactHeader{
+  min-height: 384px;
+  background-image: url(../images/kontakt/kontaktHeader.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contactText{
+    h1{
+      font-family: acumin-pro,sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      color: $jdaWhite;
+    }
+
+  }
+  .underline{
+    height: 3px;
+    width: 45px;
+    background-color: $jdaWhite;
+
+  }
+}
+
+.silverCar{
+  img{
+  }
+  .contactFormContainer{
+    min-height: 480px;
+    max-width: 325px;
+    background-color: $jdaWhite;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 225px;
+    padding: 0 30px;
+
+    .formHeader{
+      h3{
+        font-family: acumin-pro,sans-serif;
+        font-size: 20px;
+        span{
+          font-weight: bold;
+          color: $jdaBlue;
+        }
+      }
+    }
+
+    button{
+      font-family: acumin-pro,sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      color: $jdaWhite;
+      border: none;
+      min-width: 130px;
+    }
+  }
+}
+
+.contactInformation{
+  margin-top: 420px;
+  padding: 0 25px!important;
+  .headerText{
+    h2{
+      font-family: acumin-pro, sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  }
+
+  .info{
+    margin-top: 5px;
+    .contactIcon{
+      max-width: 16px;
+      max-height: 16px;
+      margin-right: 20px;
+    }
+    p{
+      margin: 0!important;
+      font-family: acumin-pro, sans-serif;
+      font-size: 18px;
+    }
+  }
+
+
+
+}
+
