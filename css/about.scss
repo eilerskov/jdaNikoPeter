@@ -1,0 +1,100 @@
+@import "colors";
+
+.btn{
+  width: 130px;
+  color: $jdaWhite;
+  font-weight: bold;
+}
+
+.omOsHeader{
+  min-height: 384px;
+  background-image: url(../images/about/omOsHeader.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contactText{
+    h1{
+      font-weight: bold;
+      font-size: 30px;
+      color: $jdaWhite;
+    }
+
+  }
+  .underline{
+    height: 3px;
+    width: 45px;
+    background-color: $jdaWhite;
+
+  }
+}
+
+.aboutContainer{
+  margin-top: 50px;
+  @media (min-width: 1000px) {
+    margin-top: 150px;
+  }
+  .header{
+    h1{
+      font-size: 32px;
+      span{
+        color: $jdaBlue;
+        font-weight: bold;
+      }
+    }
+  }
+  .aboutFlexLeft{
+    @media (min-width: 1000px) {
+      max-width: 40%;
+      margin-right: 200px;
+
+    }
+
+    @media (min-width: 1200px) {
+      margin-top: 50px;
+    }
+
+    .aboutText{
+      p{
+        color: #999;
+        line-height: 30px;
+        font-size: 16px;
+      }
+    }
+  }
+
+
+}
+
+.checkmarks{
+  margin-top: 100px;
+  @media (min-width: 1000px) {
+    margin-top: 200px;
+  }
+  img{
+    width: 69px;
+    height: 69px;
+  }
+
+  h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+  }
+}
+
+.hoerMere{
+  margin-top: 150px;
+  @media (min-width: 1000px) {
+    margin-top: 200px;
+  }
+
+  h3{
+    font-family: acumin-pro,sans-serif;
+    font-size: 20px;
+    span{
+      font-size: 55px;
+      color: $jdaYellow;
+      font-weight: bold;
+    }
+  }
+}

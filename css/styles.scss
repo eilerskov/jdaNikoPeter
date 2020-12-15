@@ -3,6 +3,7 @@
 
 * { /* Gælder alt på hele siden */
   box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
+  font-family: acumin-pro,sans-serif;
 }
 
 /* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
