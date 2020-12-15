@@ -5,24 +5,38 @@ $(function () {
 
     let logoWidth = $('.logo').outerWidth();
 
-    $('.phoneIcon').mouseover(function() {
-        tween1 = gsap.to('.phoneIcon', 0.4, {delay:0 , repeat:5, yoyo:true, rotationZ:15, ease:"sine"});
-        tween1.play();
-    });
+    let buttonWidth = $('a .btn').outerWidth();
 
-    $('.phoneIcon').mouseleave(function() {
-        let tween2 = gsap.to('.phoneIcon', 0.6, {delay:0, rotationZ:0});
+    let buttonRadius = $('a .btn').borderRadius;
+
+    console.log(buttonRadius)
+
+    // $('.phoneIcon').mouseover(function() {
+    //     tween1 = gsap.to('.phoneIcon', 0.4, {delay:0 , repeat:5, yoyo:true, rotationZ:15, ease:"sine"});
+    //     tween1.play();
+    // });
+    //
+    // $('.phoneIcon').mouseleave(function() {
+    //     let tween2 = gsap.to('.phoneIcon', 0.6, {delay:0, rotationZ:0});
+    //     tween1.kill();
+    //     tween2.play();
+    // });
+
+    $("a .btn").mouseover((function (x){
+       tween1 = gsap.to(x.currentTarget, .4, {delay: 0, borderRadius:"0.7em", ease: "sine"}).play();
+    }));
+
+    $("a .btn").mouseleave((function (x){
         tween1.kill();
-        tween2.play();
-    });
+        gsap.to(x.currentTarget, .4, {delay: 0,borderRadius:"0.25em", ease: "sine"}).play();
+    }));
 
     $('.logo').mouseover(function() {
-        tween1 = gsap.to('.logo', 0.1, {delay:0, width:logoWidth + 15});
-        tween1.play();
+        tween2 = gsap.to('.logo', 0.3, {delay:0, width:logoWidth + 15}).play();
     });
 
     $('.logo').mouseleave(function() {
-        tween1 = gsap.to('.logo', 0.1, {delay:0, width:logoWidth});
-        tween1.play();
+        tween2.kill();
+        gsap.to('.logo', 0.3, {delay:0, width:logoWidth}).play();
     });
 });
