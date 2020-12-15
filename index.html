@@ -33,7 +33,7 @@
         </a>
     </div>
     <div class="rightNav d-flex align-items-center">
-        <div class="phoneIcon mr-4">
+        <div class="phoneIcon mr-4 d-lg-none">
         <a href="#">
         <img src="images/icons/phone.png">
         </a>
@@ -44,20 +44,23 @@
     </button>
     </div>
 
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto align-items-center">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mr-lg-0 align-items-center ml-lg-auto">
+            <li class="nav-item active pr-lg-3">
+                <a class="nav-link" href="index.html">FORSIDE<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+            <li class="nav-item pr-lg-3">
+                <a class="nav-link" href="services.html">SERVICES</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Om os</a>
+            <li class="nav-item pr-lg-3">
+                <a class="nav-link" href="#">OM OS</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Kontakt</a>
+            <li class="nav-item d-lg-none">
+                <a class="nav-link" href="contact.html">KONTAKT</a>
             </li>
+            <a class="d-none d-lg-inline mr-lg-5" href="contact.html">
+            <button type="button" class="btn btn-primary mx-lg-auto bg-jdaBlue">KONTAKT</button>
+            </a>
         </ul>
     </div>
 </nav>
@@ -69,12 +72,12 @@
     </h1>
     </div>
 
-    <div class="headerBtns d-flex flex-column mt-5">
-        <button type="button" class="btn btn-primary m-2 bg-jdaBlue">SERVICES</button>
-        <button type="button" class="btn btn-warning m-2 bg-jdaYellow">OM OS</button>
+    <div class="headerBtns d-flex flex-column mt-5 flex-lg-row">
+        <button type="button" class="btn btn-primary   mx-lg-auto bg-jdaBlue">SERVICES</button>
+        <button type="button" class="btn btn-warning mt-3 mt-lg-0 ml-lg-5 bg-jdaYellow">OM OS</button>
     </div>
 
-    <div class="fbContainer d-flex align-items-center">
+    <div class="fbContainer d-flex align-items-center ml-lg-5">
         <a href="#">
             FØLG OS PÅ FACEBOOK
         </a>
@@ -87,15 +90,19 @@
 
 
     </div>
-    <span class="fbLine bg-jdaWhite"></span>
+    <span class="fbLine bg-jdaWhite ml-lg-5"></span>
     <span class="rightLine bg-jdaWhite"></span>
     <span class="standingLine bg-jdaWhite"></span>
     <div id="triangle"></div>
 
+    <div class="topRightShape position-absolute d-none d-xl-block">
+        <img src="images/topRightShape.png">
+    </div>
+
 </div>
 
 <div class="container mt-5 mb-0">
-    <div class="ctaBoxes d-flex flex-column">
+    <div class="ctaBoxes d-flex flex-column flex-md-row">
         <div class="pic1 position-relative">
             <div class="mekaniker text-center position-absolute">
                 <h1 class="colo">MEKANIKER</h1>
@@ -123,40 +130,46 @@
 
 
     </div>
-    <div class="topRightShape">
-        <img src="images/topRightShape.png">
-    </div>
 
-    <div class="container mx-1">
+    <div class="container mx-1 d-md-flex mt-lg-5">
 
-
+<div class="textContainer">
     <div class="weFixCars mt-5">
-        <h1>VI REPARERER BILER<br>
-            SOM <span class="fat">SVANSER</span></h1>
+        <h1>ET VÆRKSTED MED<br>
+            <span class="fat">TEKNIK OG PRÆCISION</span></h1>
     </div>
 
-        <div class="weFixCarsText mt-4">
+        <div class="weFixCarsText mt-4 d-md-flex">
+            <div>
             <p>
-                et eller andet klogt om dækskift som lyder relativt spændedne men som jeg ikke ved hvad er endnu en som jeg ikke ved hvad er end
-                en som jeg ikke ved hvad er end
-                en som jeg ikke ved hvad er enden som jeg ikke ved hvad er end
+                jørgensen dæk & autoteknik er en lille mekaniker lokeret i stubbekøbing, der tilbyder
+                reparation af biler, samt alt fra dækskift til leasing til rimelige priser. driller bilen?
+                mangler du at få skiftet fra sommer- til vinterdæk? eller skal der lige klargøres til syn?
+                så kom forbi vores autoværksted eller ring og få et uforpligtende tilbud i dag.
             </p>
 
             <div class="ctaBtn">
                 <button type="button" class="btn btn-warning mt-1 bg-jdaYellow">Services</button>
             </div>
+            </div>
+
+
         </div>
+
+
+</div>
 
         <div class="blueCar position-absolute">
             <img src="images/blueCar.png">
         </div>
 
+
     </div>
     
 </div>
 
-<div class="container hej justify-content-center">
-    <div class="customCard bg-jdaWhite shadow p-4 mt-5">
+<div class="container hej d-flex flex-column flex-md-row flex-md-wrap align-items-center justify-content-md-center">
+    <div class="customCard bg-jdaWhite shadow p-4 mt-5 mt-md-0">
         <div class="cardIcon my-3">
             <img src="images/icons/tireIcon.png">
         </div>
@@ -174,14 +187,14 @@
                 en som jeg ikke ved hvad er end
             </p>
         </div>
-        <div class="cardBtn my-4">
+        <div class="cardBtn my-4 my-md-0">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
         </div>
     </div>
 
-    <div class="customCard bg-jdaWhite shadow p-4 mt-5">
+    <div class="customCard bg-jdaWhite shadow p-4 mt-5 mt-md-0">
         <div class="cardIcon my-3">
             <img src="images/icons/houseIcon.png">
         </div>
@@ -199,14 +212,14 @@
                 en som jeg ikke ved hvad er end
             </p>
         </div>
-        <div class="cardBtn my-4">
+        <div class="cardBtn my-4 my-md-0">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
         </div>
     </div>
 
-    <div class="customCard bg-jdaWhite shadow p-4 mt-5">
+    <div class="customCard bg-jdaWhite shadow p-4 mt-5 mt-md-0">
         <div class="cardIcon my-3">
             <img src="images/icons/toolIcon.png">
         </div>
@@ -224,14 +237,14 @@
                 en som jeg ikke ved hvad er end
             </p>
         </div>
-        <div class="cardBtn my-4">
+        <div class="cardBtn my-4 my-md-0">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
         </div>
     </div>
 
-    <div class="customCard bg-jdaWhite shadow p-4 mt-5">
+    <div class="customCard bg-jdaWhite shadow p-4 mt-5 mt-md-0">
         <div class="cardIcon my-3">
             <img src="images/icons/calenderIcon.png">
         </div>
@@ -249,14 +262,14 @@
                 en som jeg ikke ved hvad er end
             </p>
         </div>
-        <div class="cardBtn my-4">
+        <div class="cardBtn my-4 my-md-0">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
         </div>
     </div>
 
-    <div class="customCard bg-jdaWhite shadow p-4 mt-5">
+    <div class="customCard bg-jdaWhite shadow p-4 mt-5 mt-md-0">
         <div class="cardIcon my-3">
             <img src="images/icons/carIcon.png">
         </div>
@@ -274,14 +287,14 @@
                 en som jeg ikke ved hvad er end
             </p>
         </div>
-        <div class="cardBtn my-4">
+        <div class="cardBtn my-4 my-md-0">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
         </div>
     </div>
 
-    <div class="customCard bg-jdaWhite shadow p-4 mt-5">
+    <div class="customCard bg-jdaWhite shadow p-4 mt-5 mt-md-0">
         <div class="cardIcon my-3">
             <img src="images/icons/dokumentIcon.png">
         </div>
@@ -299,25 +312,23 @@
                 en som jeg ikke ved hvad er end
             </p>
         </div>
-        <div class="cardBtn my-4">
+        <div class="cardBtn my-4 my-md-0">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
         </div>
 
     </div>
-    <div class="diamonds position-absolute">
-        <img class="mb-5" src="images/diamondsMobile.png">
+
+
+    <div class="bottomRightShape position-absolute d-none d-xl-block">
+        <img src="images/bottomLeftShape.png">
     </div>
 
 </div>
 
-<div class="buttomLeftShape">
-    <img src="images/bottomLeftShape.png">
-</div>
 
-
-<div class="uforpligtendeTilbud">
+<div class="uforpligtendeTilbud mt-5 d-md-none">
     <div class="tilbud">
         <h3 class="text-center">
             FÅ ET<br>
@@ -327,41 +338,44 @@
     </div>
 </div>
 
-<div class="container mt-5 px-3 tireTech d-flex flex-column justify-content-center">
+<div class="tilbudDesktop d-none d-md-flex">
+    <div class="tilbudDesk d-flex justify-content-end">
+        <h3 class="text-center text-right">
+            FÅ ET UFORPLIGTENDE TILBUD<br>
+            <span>25 70 01 54</span>
+        </h3>
+    </div>
+</div>
+
+
+<div class="mr-0 mt-5 mt-md-0 ml-md-0 px-3 tireTech d-flex justify-content-center align-items-center flex-column flex-md-row">
     <div class="tireImage">
         <img src="images/tireTech.png">
     </div>
 
-    <div class="tireHeader mt-5 mb-5 d-flex flex-column justify-content-center">
-        <h1>VI REPARERER BILER<br>
-            SOM <span class="fat">SVANSER</span>
+    <div class="tireHeader mt-5 mt-md-0 mb-5 d-flex flex-column mt-md-0 mb-md-0">
+        <h1>OVER 40 ÅRS ERFARING <br>
+            INDEN FOR <span class="fat">DÆKTEKNIK</span>
         </h1>
 
         <div class="tireText mt-4">
             <p>
-                et eller andet klogt om dækskift som lyder <br>
-                relativt spændedne men som jeg ikke ved<br>
-                hvad er endnu en som jeg ikke ved hvad er<br>
-                end<br>
-                en som jeg ikke ved hvad er end<br>
-                en som jeg ikke ved hvad er enden som jeg<br> ikke ved hvad er end
+                I mere end fire årtier har Jørgensen Dæk & Autoteknik arbejdet med biler og dækteknik. igennem så mange år har vi ikke blot tilfredse kunder fra falster, men også fra lolland og hele vejen op til præstø. der er ingen tvivl om, at servicen og kvaliteten kommer i første række for os. læs nærmere om vores mange services og se, hvad vi kan gøre for dig og din bil.
             </p>
 
-            <div class="ctaBtn">
+            <div class="ctaBtn mt-4">
                 <button type="button" class="btn btn-warning mt-1 bg-jdaYellow">Services</button>
             </div>
         </div>
-
-
     </div>
 
-    <div class="bottomRightShape position-absolute">
-        <img src="images/bottomRightShape.png">
-    </div>
+<div class="bottomRightShape position-absolute d-none d-xl-block">
+    <img src="images/bottomRightShape.png">
+</div>
 
 </div>
 
-<div class="leasing d-flex flex-column justify-content-center">
+<div class="leasing d-flex flex-column justify-content-center d-md-none">
     <div class="leasingText">
         <h3 class="text-center mb-4">
             VI TILBYDER SNART<br>
@@ -372,6 +386,16 @@
             <button type="button" class="btn btn-warning mt-1 bg-jdaYellow">Hør mere...</button>
         </div>
     </div>
+</div>
+
+<div class="leasingDesktop container mb-5 d-none d-md-flex flex-column justify-content-center align-items-center">
+    <h3 class="text-center mb-4">
+        VI TILBYDER SNART <br>
+        <span>LEASING</span>
+    </h3>
+    <a href="contact.html">
+    <button type="button" class="btn btn-warning mt-1 bg-jdaYellow">Hør mere...</button>
+    </a>
 </div>
 
 
