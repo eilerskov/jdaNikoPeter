@@ -6,7 +6,7 @@ $((function () {
     let fbWidth = $(".fbContainer").outerWidth();
 
     $(".headerBtns .btn").mouseover((function (x){
-        gsap.to(x.currentTarget, .5, {delay: 0, height:buttonHeight+8, ease: "sine"}).play();
+        gsap.to(x.currentTarget, .5, {delay: 0, height:buttonHeight+5, ease: "sine"}).play();
     }));
 
     $(".headerBtns .btn").mouseleave((function (x) {
@@ -20,5 +20,15 @@ $((function () {
     $(".fbContainer").mouseleave((function (x) {
         tween1.kill();
         gsap.to($(".fbContainer .arrow"), .5, {delay: 0, paddingLeft:0, ease: "sine"}).play();
-    }))
+    }));
+
+    gsap.to(".pic1",{
+        scrollTrigger:{
+            trigger:".fbContainer",
+            start:"top center",
+            immediateRender: false,
+            scrub:true
+       },
+        x:0
+    });
 }));

@@ -100,7 +100,8 @@ body {
       .headerBtns{
         button{
           min-width: 133px;
-          min-height: 45px;
+          height: 45px;
+          align-self:center;
           color: $jdaWhite;
           font-family: acumin-pro, sans-serif;
           font-weight: 600;
@@ -168,6 +169,18 @@ body {
     z-index: -999;
   }
 
+  #pic1{
+    transform:translate(25%);
+  }
+
+  #pic2{
+    z-index:120;
+  }
+
+  #pic3{
+    transform:translate(-25%);
+  }
+
   .container{
     .ctaBoxes{
       .pic1{
@@ -190,7 +203,6 @@ body {
           }
         }
       }
-
     }
 
     .container{
