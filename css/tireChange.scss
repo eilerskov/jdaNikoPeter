@@ -32,20 +32,35 @@
       }
     }
   }
-  .firstSektionText{
-    p{
+  .firstSektionText {
+    max-width: 800px;
+
+    p {
       color: #999999;
       line-height: 30px;
+      font-size: 18px;
     }
   }
-
   }
 
 
 .seasonTire{
+  @media (min-width: 1400px) {
+   margin-left: 130px;
+    margin-top: 200px;
+  }
+  @media (min-width: 1540px) {
+    margin-left: 200px;
+  }
+  @media (min-width: 1920px) {
+    margin-left: 390px;
+  }
   .seasonTireHeader{
     h3{
       font-size: 23px;
+      @media (min-width: 1920px) {
+        font-size: 54px;
+      }
       span{
         color: $jdaBlue;
         font-weight: bold;
@@ -56,6 +71,7 @@
     p{
       color: #999999;
       line-height: 30px;
+      font-size: 18px;
     }
   }
   button{
@@ -64,16 +80,17 @@
   }
 }
 
-.hoerMere{
-  margin-top: 50px;
+.hoerMere {
+  margin-top: 100px;
   @media (min-width: 1920px) {
     margin-top: 150px;
   }
 
-  h3{
-    font-family: acumin-pro,sans-serif;
+  h3 {
+    font-family: acumin-pro, sans-serif;
     font-size: 20px;
-    span{
+
+    span {
       font-size: 55px;
       color: $jdaYellow;
       font-weight: bold;
