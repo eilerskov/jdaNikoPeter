@@ -170,7 +170,9 @@ body {
   }
 
   #pic1{
-    transform:translate(25%);
+    @media (min-width: 768px) {
+      transform: translate(25%);
+    }
   }
 
   #pic2{
@@ -178,7 +180,52 @@ body {
   }
 
   #pic3{
-    transform:translate(-25%);
+    @media (min-width: 768px) {
+      transform: translate(-25%);
+    }
+  }
+
+  .cardColumn1{
+    @media (min-width: 768px) {
+      transform: translate(5%);
+    }
+    @media (min-width: 1200px) {
+      transform: translate(10%);
+    }
+  }
+
+  .cardColumn2{
+    @media (min-width: 768px) {
+      transform: translate(-5%);
+    }
+    @media (min-width: 1200px) {
+      transform: translate(0);
+    }
+  }
+
+  .cardColumn3{
+    @media (min-width: 1200px) {
+      transform: translate(-10%);
+    }
+  }
+
+  #card2{
+    @media (min-width: 1200px) {
+      z-index:1;
+    }
+  }
+
+  #card4{
+    @media (min-width: 1200px) {
+      transform: translate(10%);
+    }
+  }
+
+  #card5{
+    @media (min-width: 1200px) {
+      transform: translate(0);
+      z-index:1;
+    }
   }
 
   .container{

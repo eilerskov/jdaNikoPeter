@@ -22,11 +22,11 @@ $(function () {
     //     tween2.play();
     // });
 
-    $("a .btn").mouseover((function (x){
+    $("ul a .btn").mouseover((function (x){
        tween1 = gsap.to(x.currentTarget, .4, {delay: 0, borderRadius:"0.7em", ease: "sine"}).play();
     }));
 
-    $("a .btn").mouseleave((function (x){
+    $("ul a .btn").mouseleave((function (x){
         tween1.kill();
         gsap.to(x.currentTarget, .4, {delay: 0,borderRadius:"0.25em", ease: "sine"}).play();
     }));
