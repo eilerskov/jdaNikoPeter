@@ -41,12 +41,29 @@
       font-size: 18px;
     }
   }
+}
+
+.checkmarks{
+  margin-top: 100px;
+  @media (min-width: 1000px) {
+    margin-top: 200px;
   }
+  img{
+    width: 69px;
+    height: 69px;
+  }
+
+  h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+  }
+}
 
 
 .seasonTire{
   @media (min-width: 1400px) {
-   margin-left: 130px;
+    margin-left: 130px;
     margin-top: 200px;
   }
   @media (min-width: 1540px) {
