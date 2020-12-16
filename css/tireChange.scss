@@ -1,0 +1,82 @@
+@import "colors";
+
+.tireHeader{
+  min-height: 384px;
+  background-image: url(../images/tirechange/tireHeader.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contactText{
+    h1{
+      font-weight: bold;
+      font-size: 30px;
+      color: $jdaWhite;
+    }
+
+  }
+  .underline{
+    height: 3px;
+    width: 45px;
+    background-color: $jdaWhite;
+
+  }
+}
+
+.firstSektion{
+  .firstSektionHeader{
+    h2{
+      font-size: 28px;
+      span{
+        color: $jdaBlue;
+        font-weight: bold;
+      }
+    }
+  }
+  .firstSektionText{
+    p{
+      color: #999999;
+      line-height: 30px;
+    }
+  }
+
+  }
+
+
+.seasonTire{
+  .seasonTireHeader{
+    h3{
+      font-size: 23px;
+      span{
+        color: $jdaBlue;
+        font-weight: bold;
+      }
+    }
+  }
+  .seasonTireText{
+    p{
+      color: #999999;
+      line-height: 30px;
+    }
+  }
+  button{
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.hoerMere{
+  margin-top: 50px;
+  @media (min-width: 1920px) {
+    margin-top: 150px;
+  }
+
+  h3{
+    font-family: acumin-pro,sans-serif;
+    font-size: 20px;
+    span{
+      font-size: 55px;
+      color: $jdaYellow;
+      font-weight: bold;
+    }
+  }
+}
