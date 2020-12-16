@@ -9,8 +9,6 @@ $(function () {
 
     let buttonRadius = $('a .btn').borderRadius;
 
-    console.log(buttonRadius)
-
     // $('.phoneIcon').mouseover(function() {
     //     tween1 = gsap.to('.phoneIcon', 0.4, {delay:0 , repeat:5, yoyo:true, rotationZ:15, ease:"sine"});
     //     tween1.play();
