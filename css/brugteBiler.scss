@@ -1,0 +1,61 @@
+@import "colors";
+
+.tireHeader{
+  min-height: 384px;
+  background-image: url(../images/services/services.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .contactText{
+    h1{
+      font-weight: bold;
+      font-size: 30px;
+      color: $jdaWhite;
+    }
+
+  }
+  .underline{
+    height: 3px;
+    width: 45px;
+    background-color: $jdaWhite;
+
+  }
+}
+
+.firstSektion{
+  .firstSektionHeader{
+    h2{
+      font-size: 28px;
+      span{
+        color: $jdaBlue;
+        font-weight: bold;
+      }
+    }
+  }
+  .firstSektionText {
+    max-width: 800px;
+
+    p {
+      color: #999999;
+      line-height: 30px;
+      font-size: 18px;
+    }
+  }
+}
+
+.kontaktOs{
+  .kontaktHead{
+    h3{
+      font-size: 22px;
+      line-height: 50px;
+      span{
+        font-weight: bold;
+        font-size: 36px;
+      }
+    }
+  }
+  button{
+    color: white;
+    font-weight: bold;
+  }
+}
