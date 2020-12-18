@@ -11,45 +11,50 @@ $((function () {
     }));
 
     if (window.innerWidth >= 768) {
-        gsap.to(".tire1", {
-            scrollTrigger: {
-                trigger: ".firstSektionText ",
-                start: "center center",
-                immediateRender: false,
-                scrub: true
-            },
-            x: 0
-        });
-
-        gsap.to(".tire2", {
-            scrollTrigger: {
-                trigger: ".firstSektionText ",
-                start: "center center",
-                immediateRender: false,
-                scrub: true
-            },
-            x: 0
-        });
-
-        gsap.to(".tire3", {
-            scrollTrigger: {
-                trigger: ".firstSektionText ",
-                start: "center center",
-                immediateRender: false,
-                scrub: true
-            },
-            x: 0
-        });
-
-        gsap.to(".tire4", {
-            scrollTrigger: {
-                trigger: ".firstSektionText ",
-                start: "center center",
-                immediateRender: false,
-                scrub: true
-            },
-            x: 0
-        })}
+        // gsap.to(".tire1", {
+        //     scrollTrigger: {
+        //         trigger: ".container ",
+        //         start:"top top",
+        //         end:"top center",
+        //         immediateRender: false,
+        //         scrub: true
+        //     },
+        //     x: 0
+        // });
+        //
+        // gsap.to(".tire2", {
+        //     scrollTrigger: {
+        //         trigger: ".container ",
+        //         start:"top top",
+        //         end:"top center",
+        //         immediateRender: false,
+        //         scrub: true
+        //     },
+        //     x: 0
+        // });
+        //
+        // gsap.to(".tire3", {
+        //     scrollTrigger: {
+        //         trigger: ".container ",
+        //         start:"top top",
+        //         end:"top center",
+        //         immediateRender: false,
+        //         scrub: true
+        //     },
+        //     x: 0
+        // });
+        //
+        // gsap.to(".tire4", {
+        //     scrollTrigger: {
+        //         trigger: ".container ",
+        //         start:"top top",
+        //         end:"top center",
+        //         immediateRender: false,
+        //         scrub: true
+        //     },
+        //     x: 0
+        // })}
+    }
 }));
 
 
