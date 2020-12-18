@@ -36,8 +36,8 @@
         </a>
     </div>
     <div class="rightNav d-flex align-items-center">
-        <div class="phoneIcon mr-4">
-            <a href="#">
+        <div class="phoneIcon mr-4 d-lg-none">
+            <a href="contact.html">
                 <img src="images/icons/phone.png">
             </a>
         </div>
@@ -47,20 +47,35 @@
         </button>
     </div>
 
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto align-items-center">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mr-lg-0 align-items-center ml-lg-auto">
+            <li class="nav-item active pr-lg-3">
+                <a class="nav-link" href="index.html">FORSIDE<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+            <li class="nav-item pr-lg-3 d-lg-none">
+                <a class="nav-link" href="services.html">SERVICES</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Om os</a>
+            <li class="nav-item dropdown d-none d-lg-block">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="tireChange.html">DÆKSKIFT</a>
+                    <a class="dropdown-item" href="mekaniker.html">MEKANIKER</a>
+                    <a class="dropdown-item" href="tireHotel.html">GRATIS DÆKHOTEL</a>
+                    <a class="dropdown-item" href="klarTilSyn.html">KLARGØRELSE TIL SYN</a>
+                    <a class="dropdown-item" href="brugteBiler.html">BRUGTE BILER</a>
+                    <a class="dropdown-item" href="leasing.html">LEASING </a>
+
+                </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Kontakt</a>
+            <li class="nav-item pr-lg-3">
+                <a class="nav-link" href="omOs.html">OM OS</a>
             </li>
+            <li class="nav-item d-lg-none">
+                <a class="nav-link" href="contact.html">KONTAKT</a>
+            </li>
+            <a class="d-none d-lg-inline mr-lg-5" href="contact.html">
+                <button type="button" class="btn btn-primary mx-lg-auto bg-jdaBlue">KONTAKT</button>
+            </a>
         </ul>
     </div>
 </nav>
@@ -121,9 +136,11 @@
             </p>
         </div>
         <div class="cardBtn my-4 my-md-0">
+            <a href="tireHotel.html">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
+            </a>
         </div>
     </div>
 
@@ -146,9 +163,11 @@
             </p>
         </div>
         <div class="cardBtn my-4 my-md-0">
+            <a href="mekaniker.html">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
+            </a>
         </div>
     </div>
 
@@ -171,9 +190,11 @@
             </p>
         </div>
         <div class="cardBtn my-4 my-md-0">
+            <a href="klarTilSyn.html">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
+            </a>
         </div>
     </div>
 
@@ -196,9 +217,11 @@
             </p>
         </div>
         <div class="cardBtn my-4 my-md-0">
+            <a href="brugteBiler.html">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
+            </a>
         </div>
     </div>
 
@@ -221,9 +244,11 @@
             </p>
         </div>
         <div class="cardBtn my-4 my-md-0">
+            <a href="leasing.html">
             <button class="btn btn-primary bg-jdaBlue">
                 Læs mere...
             </button>
+            </a>
         </div>
 
     </div>
@@ -241,6 +266,63 @@
     </h3>
 </div>
 
+<div class="footer">
+    <div class="logoFooter d-flex justify-content-center pt-5">
+        <img src="images/logoWhite.svg">
+    </div>
+
+    <div class="footerFlex mt-5 pb-5 d-xl-flex justify-content-xl-between">
+        <div class="leftFlex">
+            <div class="desktopHeader d-none d-xl-block">
+                <h4>Jørgensen Dæk<br>
+                    & Autoteknik
+                </h4>
+            </div>
+
+            <div class="footerText text-center text-xl-left">
+                <p>
+                    Vi har den billigste pris, og har respekt for håndværket. Vi er en autoriseret mekaniker og dæktekniker. Ring i dag og lad mig høre hvad jeg kan gøre for dig.
+                </p>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="middleFlex mt-5 mt-xl-0">
+            <div class="linkHeader text-center text-xl-left">
+                <h4>
+                    Links
+                </h4>
+            </div>
+
+            <div class="links d-flex flex-column align-items-center justify-content-center">
+                <a class="mt-3" href="index.html">Forside</a>
+                <a class="mt-3" href="services.html">Services</a>
+                <a class="mt-3" href="omOs.html">Om Os</a>
+                <a class="mt-3" href="contact.html">Kontakt</a>
+            </div>
+        </div>
+
+        <div class="rightFlex mt-5 mt-xl-0">
+            <div class="kontaktHeader text-center text-xl-right">
+                <h4>
+                    Kontakt
+                </h4>
+            </div>
+
+            <div class="kontaktText d-flex flex-column align-items-center justify-content-center">
+                <p class="text-center text-xl-right">
+                    Jørgensen Dæk & Autoteknik<br>
+                    Dosseringen 18 4850 Stubbekøbing<br>
+                    Tlf: 54 49 02 02<br>
+                    j-d@direkte.org
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

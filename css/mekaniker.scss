@@ -6,6 +6,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 150px;
   .contactText{
     h1{
       font-weight: bold;
@@ -44,9 +45,8 @@
 }
 
 .checkmarks{
-  margin-top: 100px;
   @media (min-width: 1000px) {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   img{
     width: 69px;

@@ -23,21 +23,6 @@
   }
 }
 
-@media (min-width: 768px) {
-  .tire1{
-    transform:translate(35%);
-  }
-  .tire2{
-    transform:translate(5%);
-  }
-  .tire3{
-    transform:translate(-5%);
-  }
-  .tire4{
-    transform:translate(-35%);
-  }
-}
-
 .firstSektion{
   .firstSektionHeader{
     h2{
@@ -57,12 +42,27 @@
       font-size: 18px;
     }
   }
+}
+
+.checkmarks{
+  @media (min-width: 1000px) {
   }
+  img{
+    width: 69px;
+    height: 69px;
+  }
+
+  h3{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+  }
+}
 
 
 .seasonTire{
   @media (min-width: 1400px) {
-   margin-left: 130px;
+    margin-left: 130px;
     margin-top: 200px;
   }
   @media (min-width: 1540px) {
@@ -95,21 +95,45 @@
     font-weight: bold;
   }
 }
-
-.hoerMere {
-  margin-top: 100px;
-  @media (min-width: 1920px) {
-    margin-top: 150px;
+.synFlex{
+  .synImage{
+    @media (min-width: 768px) {
+    max-width: 35%;
   }
-
-  h3 {
-    font-family: acumin-pro, sans-serif;
-    font-size: 20px;
-
-    span {
-      font-size: 55px;
-      color: $jdaYellow;
-      font-weight: bold;
+    @media (min-width: 1200px) {
+      max-width: 450px;
     }
   }
-}
+  .synText{
+    .synHeader {
+      h3 {
+        font-size: 38px;
+
+        span {
+          color: $jdaBlue;
+          font-weight: bold;
+        }
+      }
+    }
+
+      .klarTilSyn{
+        .checkmark{
+          img{
+            max-width: 22px;
+            max-height: 22px;
+          }
+          p{
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 0!important;
+          }
+
+        }
+        button{
+          color: white;
+          font-weight: bold;
+        }
+      }
+   }
+  }
+
