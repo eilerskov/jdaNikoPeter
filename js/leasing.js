@@ -16,7 +16,7 @@ $((function () {
                 trigger: ".firstSektionText ",
                 start: "center center",
                 immediateRender: false,
-                scrub: false
+                scrub: true
             },
             x: 0
         });
@@ -26,7 +26,7 @@ $((function () {
                 trigger: ".firstSektionText ",
                 start: "center center",
                 immediateRender: false,
-                scrub: false
+                scrub: true
             },
             x: 0
         });
@@ -36,7 +36,7 @@ $((function () {
                 trigger: ".firstSektionText ",
                 start: "center center",
                 immediateRender: false,
-                scrub: false
+                scrub: true
             },
             x: 0
         });
@@ -46,7 +46,7 @@ $((function () {
                 trigger: ".firstSektionText ",
                 start: "center center",
                 immediateRender: false,
-                scrub: false
+                scrub: true
             },
             x: 0
         })}
